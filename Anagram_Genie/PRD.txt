@@ -1,0 +1,98 @@
+📄 Product Requirements Document (PRD)
+
+App Name: Anagram Genie
+Product Name: Console Anagram Checker
+Version: 1.0
+Author: Jaini Kotadia
+Date: 30/8/25
+
+1. 🎯 Purpose
+
+The purpose of this program is to allow users to check whether two given words/phrases are anagrams of each other. The program will take the user’s name as input to provide a personalized experience and return a friendly message with emojis depending on the result.
+
+2. 📌 Scope
+
+The program will run on the console/terminal.
+
+Users will be able to:
+
+Enter their name.
+
+Enter two words or phrases.
+
+Get the result stating if the inputs are anagrams or not.
+
+Special characters, punctuation, and spaces should be ignored during comparison.
+
+Case should not matter (e.g., "Listen" and "Silent" should be considered anagrams).
+
+3. 👥 User Stories
+
+As a user, I want to enter my name so that the program greets me personally.
+
+As a user, I want to input two words or phrases to check if they are anagrams.
+
+As a user, I want to receive a clear, fun, and personalized response with emojis to make the experience enjoyable.
+
+4. ✅ Functional Requirements
+
+Input Handling
+
+Prompt the user for their name.
+
+Prompt the user for the first word/phrase.
+
+Prompt the user for the second word/phrase.
+
+Processing
+
+Remove spaces and punctuation.
+
+Convert inputs to lowercase.
+
+Sort characters and compare.
+
+Output
+
+If the inputs are anagrams:
+
+Display: "Hey [Name], these are anagrams 😍"
+
+If not anagrams:
+
+Display: "Sorry [Name], these are not anagrams 😢"
+
+5. 🚫 Non-Functional Requirements
+
+The program should handle invalid inputs gracefully (e.g., empty strings).
+
+Execution should be fast (real-time response).
+
+Should work across platforms (Windows, Mac, Linux).
+
+6. 🖥 Example Flow
+
+Console Example:
+
+Enter your name: Alex
+Enter the first word/phrase: Listen
+Enter the second word/phrase: Silent
+
+Hey Alex, these are anagrams 😍
+
+
+Another Example:
+
+Enter your name: Priya
+Enter the first word/phrase: Hello
+Enter the second word/phrase: World
+
+Sorry Priya, these are not anagrams 😢
+
+7. 📊 Success Metrics
+
+Users can easily check for anagrams in less than 10 seconds.
+
+Personalized output improves engagement.
+
+Program runs without errors on console.
